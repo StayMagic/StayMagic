@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #232121;
+    color: whitesmoke;
+
+}
+header{
+    
+    width: 100%;
+
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul{
+    
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+li a:visited{
+    color: whitesmoke;
+}
+
+li a:hover{
+    color: black;
+    background-color: orange;
+}
+
+
+nav .sm{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    
+}
+
+nav .sm:visited{
+    color: whitesmoke;
+}
+
+nav .sm:hover{
+    color: orange;
+}
+
+
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/baner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    color:#232121;
+    text-transform: uppercase; 
+}
+
+main h1{
+    font-size: 48px;
+
+}
+
+/* s1 */
+
+.s1{
+    display: flex;
+    padding: 100px;
+    
+
+}
+.s1 div{
+    padding: 20px;
+}
+.s1-img{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.s1-img img{
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;
+}
+
+.s1-text{
+    width: 100%;
+    text-align: center;
+    
+}
+.s1-text h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.s1-text p{
+    word-wrap: break-word;
+    text-align: justify;
+    line-height: 1.6rem;
+    font-size: 18px;
+    
+}
+
+/*  UBI */
+
+.ubi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.ubi img{
+    width: 100%;
+    max-width: 100px;
+}
+
+/* galeria */
+
+.galeria{
+    
+    display: flex;
+    justify-content: center;
+    align-items:normal;
+    
+}
+
+.galeria img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    
+}
+.galeria h2{
+    margin-bottom: 10px;
+}
+.galeria p{
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+.galeria article{
+    margin: 0 auto;
+    
+}
+
+.btn{    
+    display: flex;    
+    justify-content: center;     
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+
+.btn a{
+
+    text-decoration: none;
+    padding: 20px;
+    background-color: #FED800;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #232121;
+
+}
+
+.btn a:hover{
+    background-color: #59BC5A;
+    color: #232121;
+}
+
+.bl {
+    margin-top: 48px;
+}
